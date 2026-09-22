@@ -19,10 +19,10 @@
       <p>Dari seragam, sampai tas sekolah — semua ada.</p>
       <button class="btn-primary"><RouterLink to="/product">Lihat Produk</RouterLink></button>
     </section>
-<video controls width="480" muted loop> 
+    <center><video controls width="480" muted loop> 
       <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" /> 
       Browser kamu tidak mendukung pemutaran video. 
-    </video> 
+    </video> </center>
     
     <section class="features-section">
   <div class="features-container">

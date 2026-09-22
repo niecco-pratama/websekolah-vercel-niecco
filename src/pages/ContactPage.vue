@@ -20,7 +20,7 @@
         </p>
 
         <p>
-          <strong>✉️ Email</strong><br>
+          <strong>💻 Email</strong><br>
           onlineshop@yadika.sch.id
         </p>
       </div>
@@ -53,7 +53,7 @@
 
 /* Bagian judul */
 .hero {
-  background: linear-gradient(135deg, #4403f8, #2461e6);
+  background: linear-gradient(135deg, #422b81, #2461e6);
   color: white;
   text-align: center;
   padding: 30px;
@@ -92,7 +92,7 @@
   flex: 1;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.08);
 }
 
 form {
@@ -119,7 +119,7 @@ textarea {
 button {
   width: fit-content;
   padding: 10px 22px;
-  background: #1403f8;
+  background: #29237a;
   color: white;
   border: none;
   border-radius: 999px;
@@ -127,7 +127,7 @@ button {
 }
 
 button:hover {
-  background: #2461e6;
+  background: #1850be;
 }
 
 /* Tampilan HP */
