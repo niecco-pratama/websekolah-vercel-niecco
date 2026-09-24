@@ -28,7 +28,7 @@ const daftarProduk = [
 
 <template>
   <main>
-    <h1>PRODUK KAMI</h1>
+    <h1><b>PRODUK KAMI</b></h1>
     <div class="grid">
       <ProductCard
         v-for="produk in daftarProduk"

@@ -10,7 +10,7 @@
   <div class="landing-page">
     <!-- Navbar Header -->
     <header class="navbar">
-      <div class="logo">SMK Yadika Soreang — Onlineshop</div>
+      <div class="logo">Niecco — Onlineshop</div>
        </header>
 
     <!-- Hero Section -->
@@ -115,7 +115,7 @@
 
 .features-section {
   padding: 50px 20px;
-  background-color:  rgb(41, 99, 107)
+  background-color:   rgb(83, 173, 185)
 }
 
 .features-container {
@@ -136,7 +136,7 @@
   background-color: #0993d3;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Memberikan efek kartu melayang */
+  box-shadow: 0 4px 12px rgb(0, 0, 0); /* Memberikan efek kartu melayang */
   transition: transform 0.2s ease;
 }
 

@@ -5,7 +5,7 @@ const tahun = new Date().getFullYear()
 <template>
   <hr />
   <footer>
-    <small>&copy; {{ tahun }} SMK Yadika Soreang — Onlineshop 
-Sekolah</small>
+    <small><b>&copy; {{ tahun }} SMK Yadika Soreang — Onlineshop 
+Sekolah</b></small>
   </footer>
 </template>

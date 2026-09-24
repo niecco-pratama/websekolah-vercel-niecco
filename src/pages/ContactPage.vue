@@ -1,7 +1,7 @@
 <template>
   <div class="contact-page">
     <section class="hero">
-      <h1>Hubungi Kami</h1>
+      <h1><b>Hubungi Kami</b></h1>
     </section>
 
     <section class="contact-container">
@@ -48,16 +48,17 @@
 
 <style scoped>
 .contact-page {
-  padding: 30px 8%;
+  padding: 30px;
 }
 
 /* Bagian judul */
 .hero {
+  font-size: 40px;
   background: linear-gradient(135deg, #422b81, #2461e6);
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 30px;
-  border-radius: 4px;
+  border-radius: 20px;
   margin-bottom: 30px;
 }
 
@@ -93,6 +94,7 @@
   padding: 25px;
   border-radius: 12px;
   box-shadow: 0 5px 20px rgba(255, 255, 255, 0.08);
+  background-color: aqua;
 }
 
 form {

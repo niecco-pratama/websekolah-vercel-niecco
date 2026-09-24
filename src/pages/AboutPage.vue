@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 
 import AboutCard from '../components/AboutCard.vue'
 import TeamCard from '../components/TeamCard.vue'
@@ -82,4 +82,130 @@ const daftarteam = [
    padding: 24px;
    text-align: center;
    }
-   </style>
+   </style> -->
+
+   <template>
+
+    <h2 class="hero"><b>Tentang Kami</b></h2>
+
+    <div class="about">
+      <div class="cerita">
+        <div class="teks">
+          <h1><b>CERITA KAMI</b></h1>
+
+          <p><b>
+            Toko kami di buat untuk orang yang
+            membutuhkan pakian atau aksesoris yang di inginkan.
+            </b>
+          </p>
+
+          <p><b>
+            kami berusaha menyediakan produk yang bagus
+            dengann harga yang terjangkau.Kami juga selalu berusaha
+            memberikan pelayanan yan ramah kepada pelanggan.
+            </b>
+          </p>
+        </div>
+          <div class="gambar">
+          <div class="palceholder">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsoB8Fd1XXYzbEfmH65nWCXE-3Lqpl1N5qmyb1KuwhQw&s=10" alt="Deskripsi" width="400" >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="features-section">
+  <div class="features-container">
+    
+    <!-- Fitur 1 -->
+    <div class="feature-card">
+      <div class="icon">👍🤙</div>
+      <h3>Kualitas Terjamin Kalcer</h3>
+      <p>Bahan dipilih langsung oleh tim sekolah.</p>
+    </div>
+
+    <!-- Fitur 2 -->
+    <div class="feature-card">
+      <div class="icon">🤑👌</div>
+      <h3>Harga Bersahabat</h3>
+      <p>Harga ramah di kantong siswa.</p>
+    </div>
+
+    <!-- Fitur 3 -->
+    <div class="feature-card">
+      <div class="icon">🏫</div>
+      <h3>Ambil di Sekolah</h3>
+      <p>Tidak perlu ongkir, ambil di Koperasi.</p>
+    </div>
+
+  </div>
+</section>
+
+   </template>
+
+   <style scoped>
+  .about {
+    padding: 50px;
+  }
+
+  .cerita {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .teks{
+    font-size: 35px;
+    margin-bottom: 30%;
+  }
+  .gambar {
+    
+    height: 400px;
+  }
+
+  .hero{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    margin: 40px
+    
+  }
+  p{
+    font-size: 20px;
+  }
+  
+  .features-section {
+  padding: 50px 20px;
+  background-color:   rgb(83, 173, 185)
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap; 
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+  .feature-card {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  padding: 25px 20px;
+  background-color: #0993d3;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgb(0, 0, 0); /* Memberikan efek kartu melayang */
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px); /* Efek sedikit naik saat di-hover */
+}
+
+  </style>
