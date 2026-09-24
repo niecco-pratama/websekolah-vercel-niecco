@@ -119,23 +119,23 @@ const daftarteam = [
     
     <!-- Fitur 1 -->
     <div class="feature-card">
-      <div class="icon">👍🤙</div>
-      <h3>Kualitas Terjamin Kalcer</h3>
-      <p>Bahan dipilih langsung oleh tim sekolah.</p>
+      <div class="icon">💀</div>
+      <h3><b>AKBAR</b></h3>
+      <p><b>MANAGER</b></p>
     </div>
 
     <!-- Fitur 2 -->
     <div class="feature-card">
-      <div class="icon">🤑👌</div>
-      <h3>Harga Bersahabat</h3>
-      <p>Harga ramah di kantong siswa.</p>
+      <div class="icon">😎</div>
+      <h3><b>NIECCO</b></h3>
+      <p><b>CEO MAPAN</b></p>
     </div>
 
     <!-- Fitur 3 -->
     <div class="feature-card">
-      <div class="icon">🏫</div>
-      <h3>Ambil di Sekolah</h3>
-      <p>Tidak perlu ongkir, ambil di Koperasi.</p>
+      <div class="icon">☠️</div>
+      <h3><b>FAIZA</b></h3>
+      <p><b>STAFF</b></p>
     </div>
 
   </div>
