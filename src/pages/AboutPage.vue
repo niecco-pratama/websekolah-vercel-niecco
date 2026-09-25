@@ -119,23 +119,23 @@ const daftarteam = [
     
     <!-- Fitur 1 -->
     <div class="feature-card">
-      <div class="icon">👍🤙</div>
-      <h3>Kualitas Terjamin Kalcer</h3>
-      <p>Bahan dipilih langsung oleh tim sekolah.</p>
+      <div class="icon">☠</div>
+      <h3><b>RIZAL</b></h3>
+      <p>MANAGER</p>
     </div>
 
     <!-- Fitur 2 -->
     <div class="feature-card">
-      <div class="icon">🤑👌</div>
-      <h3>Harga Bersahabat</h3>
-      <p>Harga ramah di kantong siswa.</p>
+      <div class="icon">🤑</div>
+      <h3><b>NIECCO</b></h3>
+      <p>CEO</p>
     </div>
 
     <!-- Fitur 3 -->
     <div class="feature-card">
-      <div class="icon">🏫</div>
-      <h3>Ambil di Sekolah</h3>
-      <p>Tidak perlu ongkir, ambil di Koperasi.</p>
+      <div class="icon">💀</div>
+      <h3><b>FAIZA</b></h3>
+      <p>MANAGER</p>
     </div>
 
   </div>
@@ -168,7 +168,7 @@ const daftarteam = [
     text-align: center;
     padding: 30px;
     border-radius: 20px;
-    background-color: aqua;
+    background: linear-gradient(135deg, #04385a, #02d9f1);
     color: rgb(0, 0, 0);
     margin: 40px
     

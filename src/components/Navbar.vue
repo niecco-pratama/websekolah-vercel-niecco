@@ -1,11 +1,12 @@
 <template>
   <nav>
-    <h2><b>Niecco - Onlineshop</b></h2>
+    <h1 class="text-center text-lg"><b>NIECCO ONLINESHOP🛒</b></h1>
+    <div class="justify-between flex ml-5 mr-5">
     <RouterLink to="/"><b>Landing</b></RouterLink> |
     <RouterLink to="/product"><b>Product</b></RouterLink> |
     <RouterLink to="/about"><b>About</b></RouterLink> |
-    <RouterLink to="/contact"><b>Contact</b></RouterLink> |
-    <RouterLink to="/niecco"><b>Niecco</b></RouterLink>
+    <RouterLink to="/contact"><b>Contact</b></RouterLink> 
+    </div>
   </nav>
   <hr />
 </template>
@@ -15,5 +16,4 @@
 </script>
  
 <style scoped>
-  /* CSS khusus buat component ini saja, tidak bocor ke component lain */
 </style>

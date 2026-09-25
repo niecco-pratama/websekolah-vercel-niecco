@@ -49,17 +49,19 @@
 <style scoped>
 .contact-page {
   padding: 30px;
+  box-shadow: #0c0c0ce4;
 }
 
 /* Bagian judul */
 .hero {
   font-size: 40px;
-  background: linear-gradient(135deg, #422b81, #2461e6);
+  background: linear-gradient(135deg, #09629d, #02d9f1);
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 30px;
   border-radius: 20px;
   margin-bottom: 30px;
+  box-shadow: rgb(0, 0, 0);
 }
 
 .hero h1 {
@@ -93,8 +95,8 @@
   flex: 1;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.08);
-  background-color: aqua;
+  box-shadow: 0 5px 20px rgb(38, 86, 87);
+   background: linear-gradient(135deg, #04385a, #02d9f1);
 }
 
 form {
@@ -121,7 +123,7 @@ textarea {
 button {
   width: fit-content;
   padding: 10px 22px;
-  background: #29237a;
+  background: #14cae2f6;
   color: white;
   border: none;
   border-radius: 999px;
@@ -129,7 +131,7 @@ button {
 }
 
 button:hover {
-  background: #1850be;
+  background: #18a3b0;
 }
 
 /* Tampilan HP */
