@@ -119,23 +119,41 @@ const daftarteam = [
     
     <!-- Fitur 1 -->
     <div class="feature-card">
+<<<<<<< HEAD
       <div class="icon">☠</div>
       <h3><b>RIZAL</b></h3>
       <p>MANAGER</p>
+=======
+      <div class="icon">💀</div>
+      <h3><b>AKBAR</b></h3>
+      <p><b>MANAGER</b></p>
+>>>>>>> 26bf876c71082b4d057d28103b97c1898f95944f
     </div>
 
     <!-- Fitur 2 -->
     <div class="feature-card">
+<<<<<<< HEAD
       <div class="icon">🤑</div>
       <h3><b>NIECCO</b></h3>
       <p>CEO</p>
+=======
+      <div class="icon">😎</div>
+      <h3><b>NIECCO</b></h3>
+      <p><b>CEO MAPAN</b></p>
+>>>>>>> 26bf876c71082b4d057d28103b97c1898f95944f
     </div>
 
     <!-- Fitur 3 -->
     <div class="feature-card">
+<<<<<<< HEAD
       <div class="icon">💀</div>
       <h3><b>FAIZA</b></h3>
       <p>MANAGER</p>
+=======
+      <div class="icon">☠️</div>
+      <h3><b>FAIZA</b></h3>
+      <p><b>STAFF</b></p>
+>>>>>>> 26bf876c71082b4d057d28103b97c1898f95944f
     </div>
 
   </div>
